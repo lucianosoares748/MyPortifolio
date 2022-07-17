@@ -1,0 +1,359 @@
+body {
+    display: flexbox;
+    background-color: #22212C;
+    display: flex;
+    padding: 40px;
+    color: #837E9F;
+    width: 100%;
+    height: 100%;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    height: 1669px;
+    padding-right: 40px;
+}
+
+
+.conteiner {
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+/*====================ASIDE--PROFILE=======================*/
+.aside--profile {
+  display: flex;
+  flex-direction: column;
+  width: 348px;
+  height: 292px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+  
+/*====================PHOTO PERFIL=========================*/
+.aside--profile img {
+  width: 128px;
+  height: 128px;
+  margin-top: 32px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  
+  background: url(image.png);
+  border: 3px solid #00FF00;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+/*===================NOME=============================*/
+.aside--profile h1 {
+    text-align: center;
+    width: 196px;
+    height: 26px;
+    margin-bottom: 10px;
+    /*======FONT========*/
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+}
+
+.aside--profile span {
+    margin-bottom: 49px;
+ /*FONT*/
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+   font-size: 13px;
+}
+ 
+
+/*=======================ASIDE DADOS===================*/
+
+.aside--dados { 
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 348px;
+    height: 348px;
+    /*FONT*/
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+    
+.aside--dados .box-dados {
+    width: 210px;
+    height: 84px;
+    padding-top: 30px;
+    padding-left: 40px;
+    
+}    
+
+.aside--dados .box-dados .dados-tags  {
+    display: flex;
+    padding-bottom: 28px;
+}
+
+
+.aside--dados .box-dados .dados-icons {
+  padding-right: 20px;
+}
+
+.aside--dados ul li {
+    list-style: none;
+}
+/*====================ASIDE TECNOLOGIAS================*/
+.aside--tecnologias {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 348px;
+    height: 208px;
+}
+
+.aside--tecnologias h2 {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+    
+.aside--tecnologias .box-tec {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    display: flex;
+    text-align: center;        
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+.aside--tecnologias .div-tags {
+    display: flex;
+    width: 86px;
+    height: 24px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    background: #CB92B1;
+    border-radius: 30px;
+    color: #000000;
+}
+/*===========================ASIDE EXPERIENCIAS ============================*/
+.aside--experiências {
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    height: 349px;
+    margin-bottom: 30px;
+}
+
+.aside--experiências h2 {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.aside--experiências .box-exp {
+    padding-left: 60px;
+    padding-top: 20px;
+    width: 175px;
+    height: 243px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+    
+/*==============ASIDE EDUCAÇÃO===================*/
+
+.aside--educação {
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    height: 352px;
+    margin-bottom: 58px;
+}
+
+.aside--educação h2 {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.aside--educação .box-educação {
+    width: 175px;
+    height: 246px;
+    padding-left: 60px;
+    
+    /*font*/
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;    
+}
+/*========================================================FIM DO ASAIDE================================================*/
+.meus-projetos {
+    display: flex;
+}
+
+
+.main-meusprojetos a {
+    text-decoration: none;
+    color: #837E9F;
+    align-items: center;
+
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    padding-right: 30px;
+}
+
+.main-meusprojetos {
+    display: flex;
+    width: 952px;
+    height: 86px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+}
+
+.main-meusprojetos h2 {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;  
+    
+    padding: 30px;
+}
+/*===================================================MAKE UP====================================*/
+.main-makeup {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    width: 461px;
+    height: 186px;
+}
+
+.main-makeup h2 {
+    display: flex;
+    width: 115px;
+    height: 20px;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 30px;
+
+
+    font-family: 'Merriweather Sans';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.main-makeup p {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    text-align: left;
+    width: 421px;
+    height: 59px;
+    padding-left: 30px;
+    padding-top: 22px;
+}
+/*============================================PROJETO EXPLORER==================================*/
+.main-projetoexplorer {
+    display: flex;
+    flex-direction: column;
+    width: 461px;
+    height: 186px;
+    margin-bottom: 30px;
+}
+
+.main-projetoexplorer h2 {
+    display: flex;
+    width: 174px;
+    height: 20px;
+    
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 30px;
+
+    font-family: 'Merriweather Sans';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.main-projetoexplorer p {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    text-align: left;
+    width: 421px;
+    height: 59px;
+    padding-left: 30px;
+    padding-top: 22px;
+}
+
+/*=================================================RECENT POSTS=======================================*/
+.main-recentposts {
+    display: flex;
+    width: 952px;
+    height: 86px;
+    text-align: left;
+   
+}
+
+.main-recentposts h2 {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+    padding: 30px;
+}
+
+
+
+
+
+
+
